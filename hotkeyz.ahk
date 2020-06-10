@@ -7,8 +7,6 @@
 SendMode Input ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-SetCapslockState, AlwaysOff
-
 GroupAdd, Browsers, ahk_class MozillaWindowClass
 GroupAdd, Browsers, ahk_class Chrome_WidgetWin_1
 GroupAdd, Fps, ahk_class UnrealWindow
