@@ -64,6 +64,8 @@ GroupAdd, Fps, ahk_class Respawn001
   !+z::Send ^+z
   !s::Send ^s
   !w::Send ^w
+  !k::Send ^k
+  !Enter::Send ^Enter
   #Left::SendInput ^{Left}
   #Right::SendInput ^{Right}
   #+Left::SendInput ^+{Left}
